@@ -4,11 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="swasthyalehar.swasthya.MainActivity">
+    tools:context="swasthyalehar.swasthya.MainActivity"
+    android:background="#fbe98d">
 
     <LinearLayout
         android:weightSum="2"
@@ -27,7 +24,9 @@
             android:orientation="vertical"
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@drawable/abc"
+            android:layout_margin="2dp">
         </LinearLayout>
 
         <!-- This will consists of Text About Swasthya Lehar-->
@@ -35,14 +34,22 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="@android:color/holo_green_light">
 
 
             <Button
                 android:onClick="leaderboard"
                 android:text="Leaderboard"
-                android:layout_width="140dp"
-                android:layout_height="100dp" />
+                android:elevation="5dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:foregroundGravity="center_horizontal" />
 
         </LinearLayout>
 
@@ -60,13 +67,15 @@
             android:gravity="left"
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/accent_material_light">
 
             <Button
                 android:id="@+id/signin"
                 android:text="Signin"
-                android:textColor="#EDFFFE"
+                android:background="?android:attr/selectableItemBackground"
                 android:textSize="20sp"
+                android:elevation="5dp"
                 android:onClick="signin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -78,14 +87,16 @@
             android:gravity="end"
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/accent_material_light">
 
             <Button
 
                 android:id="@+id/signup"
                 android:text="SignUp"
-                android:textColor="#EDFFFE"
+                android:background="?android:attr/selectableItemBackground"
                 android:textSize="20sp"
+                android:elevation="5dp"
                 android:onClick="signout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />

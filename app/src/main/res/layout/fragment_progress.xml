@@ -4,11 +4,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context="swasthyalehar.swasthya.ProgressFragment"
-        android:paddingTop="10dp">
+        android:paddingTop="?attr/actionBarSize">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress:"
+        android:textSize="20dp"
+        android:elevation="10dp"
+        android:textColor="#000000"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:id="@+id/ab" />
 
         <android.support.v7.widget.RecyclerView
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/recyclerview"
+            android:layout_below="@+id/ab"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
