@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/activities"
+                android:icon="@drawable/ten"
+                android:title="Activities" />
+            <item
+                android:id="@+id/progress"
+                android:icon="@drawable/ten"
+                android:title="Progress" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/leaderboard"
+            android:icon="@drawable/ten"
+            android:title="Leaderboard" />
+        <item
+            android:id="@+id/teamMembers"
+            android:icon="@drawable/ten"
+            android:title="All Team Menbers" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ten"
+            android:title="Settings" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ten"
+            android:title="Logout" />
+    </group>
+
+</menu>

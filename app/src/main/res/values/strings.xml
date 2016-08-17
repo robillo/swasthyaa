@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Swasthya</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
